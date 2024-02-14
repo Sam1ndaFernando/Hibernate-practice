@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a4f3a6-fdd1-4ae5-a80c-ee06da84d008" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hibernate-Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/src/main/java/org/ijse/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/src/main/java/org/ijse/config/FactoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/src/main/java/org/ijse/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/src/main/java/org/ijse/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-many/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/src/main/java/org/ijse/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/src/main/java/org/ijse/config/FactoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/src/main/java/org/ijse/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/src/main/java/org/ijse/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-to-one/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/src/main/java/org/ijse/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/src/main/java/org/ijse/config/FactoryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/src/main/java/org/ijse/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/src/main/java/org/ijse/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/many-to-many/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ffdcc597-2add-4fee-87a7-970d4692563b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ffdcc597-2add-4fee-87a7-970d4692563b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-to-many/src/main/java/org/ijse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/one-to-many/src/main/java/org/ijse/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +52,16 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/Saami/OneDrive/Desktop/Hibernate-Practice/one-to-many/src/main/resources",
+    "last_opened_file_path": "C:/Users/Saami/OneDrive/Desktop/Hibernate-Practice/many-to-many/src/main/java/org/ijse",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Saami/OneDrive/Desktop/Hibernate-Practice/one-to-many/src/main/java/org/ijse/Main.java",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Saami/OneDrive/Desktop/Hibernate-Practice/many-to-many/src/main/java/org/ijse/Main.java",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -77,6 +75,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saami\OneDrive\Desktop\Hibernate-Practice\many-to-many\src\main\java\org\ijse" />
+      <recent name="C:\Users\Saami\OneDrive\Desktop\Hibernate-Practice\many-to-many\src\main\resources" />
       <recent name="C:\Users\Saami\OneDrive\Desktop\Hibernate-Practice\one-to-many\src\main\resources" />
       <recent name="C:\Users\Saami\OneDrive\Desktop\Hibernate-Practice\one-to-one\src\main\java\org\ijse\entity" />
       <recent name="C:\Users\Saami\OneDrive\Desktop\Hibernate-Practice\one-to-one\src\main\resources" />
@@ -85,7 +85,20 @@
       <recent name="org.ijse.config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ijse.Main" />
+      <module name="many-to-many" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ijse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ijse.Main" />
       <module name="one-to-many" />
@@ -101,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -113,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707924670006</updated>
-      <workItem from="1707924671040" duration="558000" />
+      <workItem from="1707924671040" duration="1620000" />
     </task>
     <servers />
   </component>

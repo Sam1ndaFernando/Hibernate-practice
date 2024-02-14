@@ -15,32 +15,41 @@ public class Main {
         Transaction transaction = session.beginTransaction();
         //code
 
-        Student student = new Student();
-
-        student.setId(1);
-        student.setName("Sami");
-        student.setAddress("Panadura");
-
-
         List<Laptop> laptops = new ArrayList<>();
+        List<Student> students = new ArrayList<>();
+
+        Student student = new Student();
+        student.setId(1);
+        student.setName("Amodh");
+        student.setAddress("Kaluthara");
+        student.setLaptops(laptops);
+
+        Student student1 = new Student();
+        student1.setId(2);
+        student1.setName("eranga");
+        student1.setAddress("Beruwala");
+        student1.setLaptops(laptops);
 
         Laptop laptop = new Laptop();
         laptop.setLid(1);
         laptop.setModel("ACER");
-        laptops.add(laptop);
+        laptop.setStudents(students);
 
-        Laptop laptop1  = new Laptop();
+        Laptop laptop1 = new Laptop();
         laptop1.setLid(2);
         laptop1.setModel("DELL");
-        laptops.add(laptop1);
+        laptop1.setStudents(students);
 
-        student.setLaptops(laptops);
-        laptop.setStudent(student);
-        laptop1.setStudent(student);
+        laptops.add(laptop);
+        laptops.add(laptop1);
+        students.add(student);
+        students.add(student1);
 
         session.save(student);
+        session.save(student1);
         session.save(laptop);
         session.save(laptop1);
+
 
         transaction.commit();
         session.close();

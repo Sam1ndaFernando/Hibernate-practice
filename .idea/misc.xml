@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/one-to-one/pom.xml" />
         <option value="$PROJECT_DIR$/one-to-many/pom.xml" />
+        <option value="$PROJECT_DIR$/many-to-many/pom.xml" />
       </list>
     </option>
   </component>

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="one-to-one" />
         <module name="one-to-many" />
+        <module name="many-to-many" />
       </profile>
     </annotationProcessing>
   </component>
